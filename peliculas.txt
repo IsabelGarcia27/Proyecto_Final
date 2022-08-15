@@ -1,0 +1,16 @@
+2038 La_Cura_Mortal 5 2017 Wes_Ball Accion
+1234 La_Propuesta 2 2009 Pete_Chiarelli Comedia_romantica
+6483 Perfect_Blue 9 1997 Satoshi_Kon Terror_psicologico
+2504 The_Internship 7 2013 Shawn_Levy Comedia
+8796 American_Assassin 14 2017 Michael_Cuesta Accion
+7310 Call_Me_By_Your_Name 5 2017 Luca_Guadagnino Drama
+6427 Ready_Player_One 3 2018 Steven_Spieldberg Ciencia_ficcion
+1526 Terrifier 15 2016 Damien_Leone Slasher
+1272 Lightyear 12 2022 Angus_MacLane Aventura
+6413 Black_Phone 2 2022 Scott_Derrickson Terror
+2134 The_Edge_of_Seventeen 4 2016 Kelly_Fremon Drama
+1988 The_Shack 8 2017 Stuart_Hazeldine Drama
+5039 Now_You_See_Me 8 2013 Louis_Leterrier Comedia
+3657 Red 7 2022 Domee_Shi Aventura
+8710 Barbie_y_la_magia_de_pegaso 9 2005 Greg_Richardson Fantasia
+3662 Grease 13 1978 Randal_Kleiser Musical
