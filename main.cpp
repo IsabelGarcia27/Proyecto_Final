@@ -85,7 +85,7 @@ void insertarpeliculas(){
 	cout<<"Usuario (admin): "; /*ingreso del nombre de usuario del administrador, el usuario es admin*/
 	cin>>usuario; 
 	fflush(stdin);
-	cout<<"\nContrasena (admin123): "; /*ingreso de la contraseÒa del administrador, la contraseÒa es admin123*/
+	cout<<"\nContrasena (admin123): "; /*ingreso de la contrase√±a del administrador, la contrase√±a es admin123*/
 	cin>>contrasena;
 	
 	if(usuario == "admin" && contrasena == "admin123")
@@ -115,7 +115,7 @@ void insertarpeliculas(){
 				{
 					system("cls");
 					escritura.open("peliculas.txt", ios::out | ios::app);
-    				consulta.open("peliculas.txt", ios::in); //solamente consulta o lee usando la variable sobre el archivo fÌsico peliculas.txt
+    				consulta.open("peliculas.txt", ios::in); //solamente consulta o lee usando la variable sobre el archivo f√≠sico peliculas.txt
 					
 					if(escritura.is_open() && consulta.is_open() /*&& escritura2.is_open()*/) /*decicion para saber si el codigo ingresado ya existe*/
 					{
@@ -150,7 +150,7 @@ void insertarpeliculas(){
 							
 							cout<<"Ingrese el anio de la pelicula: ";
 							fflush(stdin);
-							cin>>pelis[contador].anio; /*lectura del aÒo de la pelicula*/
+							cin>>pelis[contador].anio; /*lectura del a√±o de la pelicula*/
 							
 							cout<<"Ingrese el nombre del director de la pelicula (En caso de que haya espaciado usar _): ";
 							fflush(stdin);
@@ -259,7 +259,7 @@ void insertarpeliculas(){
         	    				archivo1>>pelis[contador].nombrePelicula>>pelis[contador].cantidad>>pelis[contador].anio>>pelis[contador].nombreDirector>>pelis[contador].genero; //recorrido
 	        					
 								
-    	    					if(pelis[contador].codigoAux == pelis[contador].codigo){/*comparar cada registro para ver si se encontrÛ*/
+    	    					if(pelis[contador].codigoAux == pelis[contador].codigo){/*comparar cada registro para ver si se encontr√≥*/
 		        	    			cout<<"Nombre de la pelicula: "<<pelis[contador].nombrePelicula<<endl;
     		    					cout<<"Cantidad de la pelicula: "<<pelis[contador].cantidad<<endl;
 	    		    				x = atoi(pelis[contador].cantidad);
@@ -664,7 +664,7 @@ void buscar()
 			{
 				cout<<"\nIngrese el anio de la pelicula que desea buscar: ";
 				fflush(stdin);
-        		cin>>pelis[contador].anioAux; /*lectura del aÒo a buscar*/
+        		cin>>pelis[contador].anioAux; /*lectura del a√±o a buscar*/
         		
 							        
         		archivo1>>pelis[contador].anio; /*llamado de la variable*/
@@ -1095,7 +1095,7 @@ HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     system ("color C"); /*cambio de la interfaz*/
     int n; /*declaracion de la variable*/
     system("cls"); /*limpieza*/
-	cout<<"Bienvenido, antes de comenzar tenga encuenta las siguientes indicaciones:\n\nSiempre que vaya a llenar un campo ingrese la primera letra en mayuscula.\n\nPresione enter para continuar\n";
+	cout<<"Bienvenido/a, antes de comenzar tenga encuenta las siguientes indicaciones:\n\nSiempre que vaya a llenar un campo ingrese la primera letra en mayuscula.\n\nPresione enter para continuar\n";
 	getch();
     do{
     
